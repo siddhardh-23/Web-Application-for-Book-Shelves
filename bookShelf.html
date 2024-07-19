@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <h1 class="heading">Book shelf</h1>
+    <link rel="stylesheet" href="BookShelfStyles.css">
+    <body>
+        <h3>Currently Reading</h3>
+        <div class="Currently-reading" id="currently-reading-container">
+            <template id="data-books-template">
+                <div class="card"> 
+                    <div class="title" id="data-title"></div>
+                        <div class="author" id="data-author"></div>
+                           <select class="select">
+                            <option selected="selected">Move to...</option>
+                            <option value="Currently reading">Currently Reading</option>
+                            <option value="Want to read">Want to Read</option>
+                            <option value="Read">Read</option>
+                           </select>
+                    </div>
+                </template>
+        </div>
+        <h3>Want to Read</h3>
+        <div class="Want-to-read" id="want-to-read-container">
+            <template id="data-books-template">
+                <div class="card"> 
+                    <div class="title" id="data-title"></div>
+                        <div class="author" id="data-author"></div>
+                           <select class="select">
+                            <option selected="selected">Move to...</option>
+                            <option value="Currently reading">Currently Reading</option>
+                            <option value="Want to read">Want to Read</option>
+                            <option value="Read">Read</option>
+                           </select>
+                    </div>
+                </template>
+        </div>
+        <h3>Read</h3>
+        <div class="read" id="read-container">
+        <template id="data-books-template">
+            <div class="card"> 
+                <div class="title" id="data-title"></div>
+                    <div class="author" id="data-author"></div>
+                       <select class="select">
+                        <option selected="selected">Move to...</option>
+                        <option value="Currently reading">Currently Reading</option>
+                        <option value="Want to read">Want to Read</option>
+                        <option value="Read">Read</option>
+                       </select>
+                </div>
+            </template>
+            </div>
+    </body>
+</html>

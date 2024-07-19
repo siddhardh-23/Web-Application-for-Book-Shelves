@@ -1,0 +1,29 @@
+.heading{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+.Currently-reading{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+}
+.Want-to-read{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+}
+.read{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+}
